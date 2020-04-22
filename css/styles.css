@@ -1,0 +1,154 @@
+html {
+    color: gray;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2 {
+    color: rgb(00, 00, 00);
+    font-family: 'courier';
+    background-color: #f3dfc7;
+    font-size: 24pt;
+}
+
+body {
+    background-color: oldlace;
+}
+
+main {
+    background-color: #f3dfc7
+}
+
+body header nav {
+    display: flex;
+    text-shadow: 1px 1px darkgrey;
+    color: gray;
+}
+
+header nav {
+    flex: 1;
+    
+}
+
+ol,
+lo {
+    color: tan;
+}
+
+footer,
+ul,
+li {
+    color: tan;
+}
+
+.somename {
+    color: black;
+
+}
+
+
+h1,
+h2 {
+    color: antiquewhite;
+}
+
+body {
+    color: darkgrey;
+    transition: background-color .3s, color .3s;
+}
+
+a:hover {
+    color: #aaa
+}
+footer ul li {
+    list-style-type: none;
+    
+}
+#newtextid {
+    font-size: 12pt;
+    border: 3px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 35px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bordernew {
+    border: 2px solid gray;
+    padding: 5px 35px 5px 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/1633459.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 50rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
+
+.flexcontainer {
+    background: lightgrey;
+    height: 30vh;
+    padding: 0.2em;
+    margin: 3vh auto 0;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item {
+    background: antiquewhite;
+    font-family: 'courier';
+    margin: 0.5em;
+    color: grey
+}
+
+.container2 {
+    height: 8vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 1vh auto 0;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    background: antiquewhite;
+    font-family: 'courier';
+    color:grey;
+    
+}
+
+/* main, h2, ul, li, {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    
+}*/
+
+body main ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background: antiquewhite;
+    height: 3vh;
+    padding: 0.1em;
+    margin: 0.6vh auto 0;
+    justify-content: flex-start;
+    
+}
