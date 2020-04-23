@@ -167,8 +167,19 @@ form select{
     
 }*/
 .colored{
-    color: darkgrey
+    color: darkgrey;
+    text-align: center;
+        font-size: 22px
 }
+.contactnew{
+    color: darkgrey;
+    text-align: center;
+    font-size: 22px
+}
+
+.enter-chance{
+          text-align: center;  
+    }
 body main ul li {
     list-style-type: none;
     display: flex;
